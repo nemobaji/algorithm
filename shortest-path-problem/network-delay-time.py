@@ -5,7 +5,8 @@ class Solution:
         for u, v, w in times:
             graph[u].append((v, w))
 
-        Q = [(0, k)]
+        # Q is time to node
+        Q = [(0, k)] 
         dist = collections.defaultdict(int)
 
         while Q:
