@@ -14,6 +14,7 @@ class Codec:
         :type root: TreeNode
         :rtype: str
         """
+        
         result = ['#']
 
         queue = deque([root])
